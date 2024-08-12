@@ -1,0 +1,44 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/twilight_wrench/item",
+	"textures": {
+		"0": "ti_castle:item/twilight_wrench",
+		"particle": "ti_castle:item/twilight_wrench"
+	},
+	"elements": [
+		{
+			"from": [6, 19, 13],
+			"to": [10, 26, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 19, 13]},
+			"faces": {
+				"north": {"uv": [9, 4, 5, 11], "texture": "#0"},
+				"east": {"uv": [8, 4, 9, 11], "texture": "#0"},
+				"south": {"uv": [5, 4, 9, 11], "texture": "#0"},
+				"west": {"uv": [5, 4, 6, 11], "texture": "#0"},
+				"up": {"uv": [5, 4, 9, 5], "texture": "#0"},
+				"down": {"uv": [5, 10, 9, 11], "texture": "#0"}
+			}
+		},
+		{
+			"from": [6, 19, 2],
+			"to": [10, 26, 3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 19, 2]},
+			"faces": {
+				"north": {"uv": [5, 4, 9, 11], "texture": "#0"},
+				"east": {"uv": [5, 4, 6, 11], "texture": "#0"},
+				"south": {"uv": [9, 4, 5, 11], "texture": "#0"},
+				"west": {"uv": [8, 4, 9, 11], "texture": "#0"},
+				"up": {"uv": [9, 4, 5, 5], "texture": "#0"},
+				"down": {"uv": [5, 10, 9, 11], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "Plate",
+			"origin": [7, 15, 4],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}
