@@ -1,0 +1,30 @@
+{
+  "values": [
+    "minecraft:skeleton_skull",
+    "minecraft:wither_skeleton_skull",
+    "minecraft:zombie_head",
+    "minecraft:player_head",
+    "minecraft:creeper_head",
+    "minecraft:dragon_head",
+    "minecraft:piglin_head",
+    "minecraft:skeleton_wall_skull",
+    "minecraft:wither_skeleton_wall_skull",
+    "minecraft:zombie_wall_head",
+    "minecraft:player_wall_head",
+    "minecraft:creeper_wall_head",
+    "minecraft:dragon_wall_head",
+    "minecraft:piglin_wall_head",
+
+    "twilightforest:skeleton_skull_candle",
+    "twilightforest:wither_skeleton_skull_candle",
+    "twilightforest:zombie_skull_candle",
+    "twilightforest:player_skull_candle",
+    "twilightforest:creeper_skull_candle",
+    "twilightforest:piglin_skull_candle",
+    "twilightforest:skeleton_wall_skull_candle",
+    "twilightforest:wither_skeleton_wall_skull_candle",
+    "twilightforest:zombie_wall_skull_candle",
+    "twilightforest:player_wall_skull_candle",
+    "twilightforest:creeper_wall_skull_candle",
+    "twilightforest:piglin_wall_skull_candle"
+]}

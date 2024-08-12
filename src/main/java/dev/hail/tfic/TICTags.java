@@ -10,6 +10,6 @@ public class TICTags{
 
     public static final TagKey<Block> TWILIGHT_WRENCH_PICKUP = bind("twilight_wrench_pickup");
     private static @NotNull TagKey<Block> bind(String id) {
-        return TagKey.create(Registries.BLOCK, new ResourceLocation(TwilightIndustrialCastle.MODID));
+        return TagKey.create(Registries.BLOCK, new ResourceLocation(TwilightIndustrialCastle.MODID,id));
     }
 }

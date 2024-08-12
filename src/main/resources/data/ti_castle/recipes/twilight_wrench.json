@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "S": {
+      "item": "create:sturdy_sheet"
+    },
+    "M": {
+      "item": "twilightforest:mazebreaker_pickaxe"
+    },
+    "T": {
+      "item": "twilightforest:thorn_rose"
+    },
+    "L": {
+      "item": "twilightforest:lamp_of_cinders"
+    }
+  },
+  "pattern": [
+    "STS",
+    " M ",
+    " L "
+  ],
+  "result": {
+    "item": "ti_castle:twilight_wrench"
+  }
+}
