@@ -15,5 +15,7 @@
   "block.ti_castle.green_twill_castle_rune_brick": "Green Twill Castle Rune Brick",
   "block.ti_castle.blue_twill_castle_rune_brick": "Blue Twill Castle Rune Brick",
   "block.ti_castle.violet_twill_castle_rune_brick": "Purple Twill Castle Rune Brick",
-  "block.ti_castle.pink_twill_castle_rune_brick": "Pink Twill Castle Rune Brick"
+  "block.ti_castle.pink_twill_castle_rune_brick": "Pink Twill Castle Rune Brick",
+
+  "block.ti_castle.bedrock_platform": "Bedrock Platform"
 }

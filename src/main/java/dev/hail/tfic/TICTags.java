@@ -10,6 +10,7 @@ import twilightforest.TwilightForestMod;
 public class TICTags{
 
     public static final TagKey<Block> TWILIGHT_WRENCH_PICKUP = bind("twilight_wrench_pickup");
+    public static final TagKey<Block> TWILIGHT_WRENCH_PICKUP_UNBREAKABLE = bind("twilight_wrench_pickup_unbreakable");
     public static final TagKey<Block> CASTLE_BLOCKS = bindT("castle_blocks");
     private static @NotNull TagKey<Block> bind(String id) {
         return TagKey.create(Registries.BLOCK, new ResourceLocation(TwilightIndustrialCastle.MODID,id));

@@ -47,6 +47,7 @@ public class TwilightIndustrialCastle {
                 output.accept(BLUE_TWILL_CASTLE_RUNE_BRICK.get());
                 output.accept(VIOLET_TWILL_CASTLE_RUNE_BRICK.get());
                 output.accept(PINK_TWILL_CASTLE_RUNE_BRICK.get());
+                output.accept(BEDROCK_PLATFORM.get());
             }).build());
 
     public TwilightIndustrialCastle()

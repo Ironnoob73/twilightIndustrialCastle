@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "minecraft:bedrock"
+    },
+    {
+      "item": "minecraft:netherite_scrap"
+    }
+  ],
+  "results": [
+    {
+      "item": "ti_castle:bedrock_platform"
+    }
+  ]
+}

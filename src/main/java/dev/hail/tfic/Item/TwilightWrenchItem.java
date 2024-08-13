@@ -43,7 +43,7 @@ public class TwilightWrenchItem extends WrenchItem {
         Block block = state.getBlock();
 
         if (!(block instanceof IWrenchable)) {
-            if (canWrenchPickup(state) || state.is(TICTags.TWILIGHT_WRENCH_PICKUP) ){
+            if (canWrenchPickup(state) || state.is(TICTags.TWILIGHT_WRENCH_PICKUP) || state.is(TICTags.TWILIGHT_WRENCH_PICKUP_UNBREAKABLE)){
                 return onItemUseOnOther(context);}
             return super.useOn(context);
         }

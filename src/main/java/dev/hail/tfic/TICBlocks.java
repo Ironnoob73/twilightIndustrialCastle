@@ -4,7 +4,9 @@ import com.simibubi.create.foundation.block.connected.ConnectedTextureBehaviour;
 import com.simibubi.create.foundation.block.connected.SimpleCTBehaviour;
 import com.tterrag.registrate.util.entry.BlockEntry;
 import com.tterrag.registrate.util.nullness.NonNullFunction;
+import net.minecraft.world.item.Rarity;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
@@ -15,7 +17,7 @@ import twilightforest.block.CastleDoorBlock;
 import java.util.function.Supplier;
 
 import static com.simibubi.create.foundation.data.CreateRegistrate.connectedTextures;
-import static dev.hail.tfic.Block.TICSpriteShifts.ARTIFICIAL_CASTLE_BRICKS_CT;
+import static dev.hail.tfic.Block.TICSpriteShifts.*;
 import static dev.hail.tfic.TwilightIndustrialCastle.REGISTRATE;
 
 
@@ -75,11 +77,20 @@ public class TICBlocks {
                         .requiresCorrectToolForDrops()
                         .sound(SoundType.STONE)
                         .strength(100.0F, 6000000.0F))
-                .item()
-                .build()
-                .register();
+                .item().build().register();
     }
     public static final BlockEntry<Block> TWILL_DEADROCK = deadrockBlockPattern("twill_deadrock", Block::new);
+    public static BlockEntry<Block> unbreakablePlatformPattern(String Name, Supplier<ConnectedTextureBehaviour> behaviour) {
+        return REGISTRATE.block(Name, Block::new)
+                .initialProperties(() -> Blocks.BEDROCK)
+                .onRegister(connectedTextures(behaviour))
+                .properties(p -> p.sound(SoundType.ANCIENT_DEBRIS)
+                                .requiresCorrectToolForDrops()
+                        )
+                .item().properties(p -> p.rarity(Rarity.EPIC))
+                .build().register();
+    }
+    public static final BlockEntry<Block> BEDROCK_PLATFORM = unbreakablePlatformPattern("bedrock_platform",() -> new SimpleCTBehaviour(BEDROCK_PLATFORM_CT));
     public static void register() {
 
     }

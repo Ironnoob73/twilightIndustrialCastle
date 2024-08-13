@@ -1,5 +1,6 @@
 package dev.hail.tfic.mixin;
 
+import org.objectweb.asm.Opcodes;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -8,4 +9,8 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(twilightforest.client.model.block.doors.CastleDoorModel.class)
 public class TFCastleDoorModelMixin {
+    @Inject(method = "<init>",at = @At(value = "FIELD", target = "Ltwilightforest/client/model/block/doors/CastleDoorModel;validConnectors:[Lnet/minecraft/world/level/block/Block;", opcode = Opcodes.PUTFIELD))
+    private void injected(Something something, int x) {
+        something.aaa = x + doSomething5();
+    }
 }

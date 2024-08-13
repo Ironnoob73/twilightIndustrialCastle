@@ -15,5 +15,7 @@
   "block.ti_castle.green_twill_castle_rune_brick": "绿色斜纹城堡符文砖",
   "block.ti_castle.blue_twill_castle_rune_brick": "蓝色斜纹城堡符文砖",
   "block.ti_castle.violet_twill_castle_rune_brick": "紫色斜纹城堡符文砖",
-  "block.ti_castle.pink_twill_castle_rune_brick": "粉色斜纹城堡符文砖"
+  "block.ti_castle.pink_twill_castle_rune_brick": "粉色斜纹城堡符文砖",
+
+  "block.ti_castle.bedrock_platform": "基岩平台"
 }

@@ -11,6 +11,7 @@ import dev.hail.tfic.TwilightIndustrialCastle;
 
 public class TICSpriteShifts extends AllSpriteShifts {
     public static final CTSpriteShiftEntry ARTIFICIAL_CASTLE_BRICKS_CT = cross("artificial_castle_bricks");
+    public static final CTSpriteShiftEntry BEDROCK_PLATFORM_CT = omni("bedrock_platform");
     private static CTSpriteShiftEntry omni(String name) {
         return getCT(AllCTTypes.OMNIDIRECTIONAL, name);
     }
