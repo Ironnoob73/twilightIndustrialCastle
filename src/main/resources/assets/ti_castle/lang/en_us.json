@@ -2,5 +2,18 @@
   "ti_castle.name": "Twilight Industrial Castle",
 
   "item.ti_castle.castle_white_brick": "Castle White Brick",
-  "item.ti_castle.twilight_wrench": "Twilight Wrench"
+  "item.ti_castle.twilight_wrench": "Twilight Wrench",
+
+  "block.ti_castle.castle_tile": "Castle Tile",
+  "block.ti_castle.twill_deadrock": "Twill Deadrock",
+  "block.ti_castle.red_castle_rune_brick": "Red Castle Rune Brick",
+  "block.ti_castle.orange_castle_rune_brick": "Orange Castle Rune Brick",
+  "block.ti_castle.green_castle_rune_brick": "Green Castle Rune Brick",
+  "block.ti_castle.red_twill_castle_rune_brick": "Red Twill Castle Rune Brick",
+  "block.ti_castle.orange_twill_castle_rune_brick": "Orange Twill Castle Rune Brick",
+  "block.ti_castle.yellow_twill_castle_rune_brick": "Yellow Twill Castle Rune Brick",
+  "block.ti_castle.green_twill_castle_rune_brick": "Green Twill Castle Rune Brick",
+  "block.ti_castle.blue_twill_castle_rune_brick": "Blue Twill Castle Rune Brick",
+  "block.ti_castle.violet_twill_castle_rune_brick": "Purple Twill Castle Rune Brick",
+  "block.ti_castle.pink_twill_castle_rune_brick": "Pink Twill Castle Rune Brick"
 }

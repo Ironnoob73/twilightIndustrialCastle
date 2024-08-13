@@ -4,7 +4,7 @@
   "package": "dev.hail.tfic.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-
+    "TFCastleDoorModelMixin"
   ],
   "minVersion": "0.8.5"
 }

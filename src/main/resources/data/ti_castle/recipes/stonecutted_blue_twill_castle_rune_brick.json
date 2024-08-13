@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "tag": "ti_castle:castle_rune/blue_rune"
+  },
+  "result": "ti_castle:blue_twill_castle_rune_brick"
+}

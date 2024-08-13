@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "active=false,vanish=false": {
+      "model": "ti_castle:block/red_castle_door"
+    },
+    "active=false,vanish=true": {
+      "model": "ti_castle:block/red_castle_door_vanished"
+    },
+    "active=true,vanish=false": {
+      "model": "ti_castle:block/red_castle_door"
+    },
+    "active=true,vanish=true": {
+      "model": "ti_castle:block/red_castle_door_vanished"
+    }
+  }
+}

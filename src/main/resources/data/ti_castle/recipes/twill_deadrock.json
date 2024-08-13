@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "twilightforest:weathered_deadrock"
+  },
+  "result": "ti_castle:twill_deadrock"
+}

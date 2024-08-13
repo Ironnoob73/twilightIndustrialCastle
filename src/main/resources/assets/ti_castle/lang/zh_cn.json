@@ -2,5 +2,18 @@
   "ti_castle.name": "暮色工业城堡",
 
   "item.ti_castle.castle_white_brick": "城堡白砖",
-  "item.ti_castle.twilight_wrench": "暮色扳手"
+  "item.ti_castle.twilight_wrench": "暮色扳手",
+
+  "block.ti_castle.castle_tile": "城堡瓦",
+  "block.ti_castle.twill_deadrock": "斜纹死岩",
+  "block.ti_castle.red_castle_rune_brick": "红色城堡符文砖",
+  "block.ti_castle.orange_castle_rune_brick": "橙色城堡符文砖",
+  "block.ti_castle.green_castle_rune_brick": "绿色城堡符文砖",
+  "block.ti_castle.red_twill_castle_rune_brick": "红色斜纹城堡符文砖",
+  "block.ti_castle.orange_twill_castle_rune_brick": "橙色斜纹城堡符文砖",
+  "block.ti_castle.yellow_twill_castle_rune_brick": "黄色斜纹城堡符文砖",
+  "block.ti_castle.green_twill_castle_rune_brick": "绿色斜纹城堡符文砖",
+  "block.ti_castle.blue_twill_castle_rune_brick": "蓝色斜纹城堡符文砖",
+  "block.ti_castle.violet_twill_castle_rune_brick": "紫色斜纹城堡符文砖",
+  "block.ti_castle.pink_twill_castle_rune_brick": "粉色斜纹城堡符文砖"
 }

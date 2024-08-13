@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": [
+      {
+        "item": "twilightforest:castle_brick"
+      },
+      {
+        "item": "twilightforest:worn_castle_brick"
+      },
+      {
+        "item": "twilightforest:cracked_castle_brick"
+      },
+      {
+        "item": "twilightforest:mossy_castle_brick"
+      },
+      {
+        "item": "twilightforest:thick_castle_brick"
+      }
+    ],
+    "H": [
+      {
+        "item": "twilightforest:castle_roof_tile"
+      }
+    ]
+  },
+  "pattern": [
+    "#H#",
+    "#H#"
+  ],
+  "result": {
+    "count": 6,
+    "item": "twilightforest:encased_castle_brick_pillar"
+  },
+  "show_notification": true
+}

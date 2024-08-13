@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "tag": "ti_castle:castle_rune/yellow_rune"
+  },
+  "result": "twilightforest:yellow_castle_rune_brick"
+}

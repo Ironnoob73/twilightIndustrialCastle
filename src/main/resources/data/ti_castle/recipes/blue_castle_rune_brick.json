@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": [
+      {
+        "tag": "ti_castle:castle_blocks"
+      }
+    ],
+    "M": [
+      {
+        "item": "minecraft:diamond"
+      }
+    ]
+  },
+  "pattern": [
+    "###",
+    "#M#",
+    "###"
+  ],
+  "result": {
+    "count": 8,
+    "item": "twilightforest:blue_castle_rune_brick"
+  }
+}

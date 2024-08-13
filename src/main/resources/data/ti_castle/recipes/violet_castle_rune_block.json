@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": [
+      {
+        "tag": "ti_castle:castle_blocks"
+      }
+    ],
+    "M": [
+      {
+        "item": "create:powdered_obsidian"
+      }
+    ]
+  },
+  "pattern": [
+    "###",
+    "#M#",
+    "###"
+  ],
+  "result": {
+    "count": 8,
+    "item": "twilightforest:violet_castle_rune_brick"
+  }
+}

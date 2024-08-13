@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": [
+      {
+        "tag": "ti_castle:castle_blocks"
+      }
+    ],
+    "M": [
+      {
+        "item": "minecraft:redstone"
+      }
+    ]
+  },
+  "pattern": [
+    "###",
+    "#M#",
+    "###"
+  ],
+  "result": {
+    "count": 8,
+    "item": "ti_castle:red_castle_rune_brick"
+  }
+}

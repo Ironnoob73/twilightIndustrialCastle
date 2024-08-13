@@ -35,7 +35,18 @@ public class TwilightIndustrialCastle {
             .displayItems((parameters, output) -> {
                 output.accept(TWILIGHT_WRENCH.get());
                 output.accept(CASTLE_WHITE_BRICK.get());
-                output.accept(ARTIFICIAL_CASTLE_BRICKS.get());
+                output.accept(CASTLE_TILE.get());
+                output.accept(TWILL_DEADROCK.get());
+                output.accept(RED_CASTLE_RUNE_BRICK.get());
+                output.accept(ORANGE_CASTLE_RUNE_BRICK.get());
+                output.accept(GREEN_CASTLE_RUNE_BRICK.get());
+                output.accept(RED_TWILL_CASTLE_RUNE_BRICK.get());
+                output.accept(ORANGE_TWILL_CASTLE_RUNE_BRICK.get());
+                output.accept(YELLOW_TWILL_CASTLE_RUNE_BRICK.get());
+                output.accept(GREEN_TWILL_CASTLE_RUNE_BRICK.get());
+                output.accept(BLUE_TWILL_CASTLE_RUNE_BRICK.get());
+                output.accept(VIOLET_TWILL_CASTLE_RUNE_BRICK.get());
+                output.accept(PINK_TWILL_CASTLE_RUNE_BRICK.get());
             }).build());
 
     public TwilightIndustrialCastle()

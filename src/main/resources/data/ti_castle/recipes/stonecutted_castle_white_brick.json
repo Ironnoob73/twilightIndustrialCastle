@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 4,
+  "ingredient": {
+    "tag": "twilightforest:castle_blocks"
+  },
+  "result": "ti_castle:castle_white_brick"
+}

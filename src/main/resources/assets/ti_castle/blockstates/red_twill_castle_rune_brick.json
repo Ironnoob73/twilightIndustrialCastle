@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "ti_castle:block/twill_castle_rune_brick"
+      }
+    ]
+  }
+}

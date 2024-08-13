@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": [
+      {
+        "tag": "ti_castle:castle_blocks"
+      }
+    ],
+    "M": [
+      {
+        "item": "minecraft:amethyst_shard"
+      }
+    ]
+  },
+  "pattern": [
+    "###",
+    "#M#",
+    "###"
+  ],
+  "result": {
+    "count": 8,
+    "item": "twilightforest:pink_castle_rune_brick"
+  }
+}

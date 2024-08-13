@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "ti_castle:block/castle_tile"
+    }
+  }
+}

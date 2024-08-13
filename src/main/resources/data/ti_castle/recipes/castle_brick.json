@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": [
+      {
+        "item": "ti_castle:castle_white_brick"
+      }
+    ]
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "item": "twilightforest:castle_brick"
+  }
+}

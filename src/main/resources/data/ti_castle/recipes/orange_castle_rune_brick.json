@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": [
+      {
+        "tag": "ti_castle:castle_blocks"
+      }
+    ],
+    "M": [
+      {
+        "item": "minecraft:copper_ingot"
+      }
+    ]
+  },
+  "pattern": [
+    "###",
+    "#M#",
+    "###"
+  ],
+  "result": {
+    "count": 8,
+    "item": "ti_castle:orange_castle_rune_brick"
+  }
+}
