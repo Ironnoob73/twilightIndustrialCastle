@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "ti_castle:bedrock_platform"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "ti_castle:twill_bedrock_platform"
+    }
+  ]
+}

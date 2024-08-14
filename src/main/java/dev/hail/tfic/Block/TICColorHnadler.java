@@ -18,7 +18,7 @@ public final class TICColorHnadler {
             if (tintIndex > 15) return 0xFFFFFF;
             int color = 0xFF0000;
             return color;
-        }, TICBlocks.RED_CASTLE_RUNE_BRICK.get(),TICBlocks.RED_TWILL_CASTLE_RUNE_BRICK.get(),TICBlocks.RED_CASTLE_DOOR.get());
+        }, TICBlocks.RED_CASTLE_RUNE_BRICK.get(),TICBlocks.RED_TWILL_CASTLE_RUNE_BRICK.get(),TICBlocks.RED_CASTLE_DOOR.get(),TICBlocks.RED_GLOWING_CASTLE_RUNE_BRICK.get());
 
         event.register((state, getter, pos, tintIndex) -> {
             if (tintIndex > 15) return 0xFFFFFF;
@@ -67,7 +67,8 @@ public final class TICColorHnadler {
                 },
                 TICBlocks.RED_CASTLE_RUNE_BRICK.get(),TICBlocks.ORANGE_CASTLE_RUNE_BRICK.get(),TICBlocks.GREEN_CASTLE_RUNE_BRICK.get(),
                 TICBlocks.RED_TWILL_CASTLE_RUNE_BRICK.get(),TICBlocks.ORANGE_TWILL_CASTLE_RUNE_BRICK.get(),TICBlocks.YELLOW_TWILL_CASTLE_RUNE_BRICK.get(),TICBlocks.GREEN_TWILL_CASTLE_RUNE_BRICK.get(),TICBlocks.BLUE_TWILL_CASTLE_RUNE_BRICK.get(),TICBlocks.VIOLET_TWILL_CASTLE_RUNE_BRICK.get(),TICBlocks.PINK_TWILL_CASTLE_RUNE_BRICK.get(),
-                TICBlocks.RED_CASTLE_DOOR.get()
+                TICBlocks.RED_CASTLE_DOOR.get(),
+                TICBlocks.RED_GLOWING_CASTLE_RUNE_BRICK.get()
         );
 
     }

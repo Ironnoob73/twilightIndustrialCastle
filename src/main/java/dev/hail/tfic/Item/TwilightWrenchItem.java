@@ -6,6 +6,7 @@ import com.simibubi.create.Create;
 import com.simibubi.create.content.equipment.wrench.IWrenchable;
 import com.simibubi.create.content.equipment.wrench.WrenchItem;
 import com.simibubi.create.foundation.item.render.SimpleCustomRenderer;
+import dev.hail.tfic.Config;
 import dev.hail.tfic.TICTags;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
@@ -21,8 +22,6 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.client.extensions.common.IClientItemExtensions;
-import org.jetbrains.annotations.NotNull;
-import twilightforest.data.tags.BlockTagGenerator;
 
 import javax.annotation.Nonnull;
 import java.util.function.Consumer;
@@ -43,7 +42,7 @@ public class TwilightWrenchItem extends WrenchItem {
         Block block = state.getBlock();
 
         if (!(block instanceof IWrenchable)) {
-            if (canWrenchPickup(state) || state.is(TICTags.TWILIGHT_WRENCH_PICKUP) || state.is(TICTags.TWILIGHT_WRENCH_PICKUP_UNBREAKABLE)){
+            if (canWrenchPickup(state) || state.is(TICTags.TWILIGHT_WRENCH_PICKUP) || (Config.obtainableBedrockPlatform && state.is(TICTags.TWILIGHT_WRENCH_PICKUP_UNBREAKABLE) )){
                 return onItemUseOnOther(context);}
             return super.useOn(context);
         }

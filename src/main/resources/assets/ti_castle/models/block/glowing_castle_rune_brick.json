@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "ti_castle:block/glowing_castle_rune_brick"
+  }
+}

@@ -1,16 +1,30 @@
 package dev.hail.tfic.mixin;
 
+import dev.hail.tfic.TICBlocks;
+import net.minecraft.world.level.block.Block;
+import net.minecraftforge.client.model.IDynamicBakedModel;
 import org.objectweb.asm.Opcodes;
+import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.Mutable;
+import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
-import org.spongepowered.asm.mixin.injection.Inject;
-import org.spongepowered.asm.mixin.injection.ModifyArg;
-import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
+import org.spongepowered.asm.mixin.injection.Redirect;
+import twilightforest.client.model.block.doors.CastleDoorModel;
+import twilightforest.init.TFBlocks;
 
 @Mixin(twilightforest.client.model.block.doors.CastleDoorModel.class)
-public class TFCastleDoorModelMixin {
-    @Inject(method = "<init>",at = @At(value = "FIELD", target = "Ltwilightforest/client/model/block/doors/CastleDoorModel;validConnectors:[Lnet/minecraft/world/level/block/Block;", opcode = Opcodes.PUTFIELD))
-    private void injected(Something something, int x) {
-        something.aaa = x + doSomething5();
+public abstract class TFCastleDoorModelMixin implements IDynamicBakedModel {
+
+    @Final
+    @Shadow
+    private Block[] validConnectors;
+
+    @Redirect(method = "<init>",at = @At(value = "FIELD",
+            target = "Ltwilightforest/client/model/block/doors/CastleDoorModel;validConnectors:[Lnet/minecraft/world/level/block/Block;",
+            opcode = Opcodes.PUTFIELD,
+            remap = false))
+    private void injected(CastleDoorModel instance, Block[] value) {
+        instance.validConnectors = new Block[]{TFBlocks.PINK_CASTLE_DOOR.get(), TFBlocks.YELLOW_CASTLE_DOOR.get(), TFBlocks.BLUE_CASTLE_DOOR.get(), TFBlocks.VIOLET_CASTLE_DOOR.get(), TICBlocks.RED_CASTLE_DOOR.get()};
     }
 }

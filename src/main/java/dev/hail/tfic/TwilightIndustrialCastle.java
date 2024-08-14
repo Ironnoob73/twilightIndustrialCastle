@@ -47,7 +47,10 @@ public class TwilightIndustrialCastle {
                 output.accept(BLUE_TWILL_CASTLE_RUNE_BRICK.get());
                 output.accept(VIOLET_TWILL_CASTLE_RUNE_BRICK.get());
                 output.accept(PINK_TWILL_CASTLE_RUNE_BRICK.get());
+                output.accept(RED_GLOWING_CASTLE_RUNE_BRICK.get());
                 output.accept(BEDROCK_PLATFORM.get());
+                output.accept(LUMINOUS_BEDROCK_PLATFORM.get());
+                output.accept(TWILL_BEDROCK_PLATFORM.get());
             }).build());
 
     public TwilightIndustrialCastle()
@@ -68,14 +71,6 @@ public class TwilightIndustrialCastle {
 
     private void commonSetup(final FMLCommonSetupEvent event)
     {
-        LOGGER.info("HELLO FROM COMMON SETUP");
-
-        if (Config.logDirtBlock)
-            LOGGER.info("DIRT BLOCK >> {}", ForgeRegistries.BLOCKS.getKey(Blocks.DIRT));
-
-        LOGGER.info(Config.magicNumberIntroduction + Config.magicNumber);
-
-        Config.items.forEach((item) -> LOGGER.info("ITEM >> {}", item.toString()));
     }
     public static ResourceLocation asResource(String path) {
         return new ResourceLocation(MODID, path);

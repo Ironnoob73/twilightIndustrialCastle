@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "ti_castle:block/luminous_bedrock_platform"
+      }
+    ]
+  }
+}
