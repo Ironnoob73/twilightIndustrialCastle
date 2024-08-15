@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "tag": "ti_castle:castle_rune/white_rune"
+  },
+  "result": "ti_castle:white_strip_castle_roof_tile"
+}

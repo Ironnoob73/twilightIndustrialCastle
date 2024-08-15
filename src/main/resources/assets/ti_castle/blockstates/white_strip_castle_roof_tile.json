@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "ti_castle:block/white_strip_castle_roof_tile"
+      }
+    ]
+  }
+}

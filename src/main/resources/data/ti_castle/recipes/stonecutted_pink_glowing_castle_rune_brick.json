@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "tag": "ti_castle:castle_rune/pink_rune"
+  },
+  "result": "ti_castle:pink_glowing_castle_rune_brick"
+}

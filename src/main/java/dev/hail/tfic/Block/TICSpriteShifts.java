@@ -11,10 +11,10 @@ import dev.hail.tfic.TwilightIndustrialCastle;
 
 public class TICSpriteShifts extends AllSpriteShifts {
     public static final CTSpriteShiftEntry DEFAULT = rect("missing");
-    public static final CTSpriteShiftEntry ARTIFICIAL_CASTLE_BRICKS_CT = cross("artificial_castle_bricks");
     public static final CTSpriteShiftEntry BEDROCK_PLATFORM_CT = omni("bedrock_platform");
     public static final CTSpriteShiftEntry TWILL_BEDROCK_PLATFORM_CT = omni("twill_bedrock_platform");
-    public static final CTSpriteShiftEntry GLOWING_CASTLE_BRICK_CT = omni("glowing_castle_rune_brick");
+    public static final CTSpriteShiftEntry GLOWING_CASTLE_BRICK_CT = cross("glowing_castle_rune_brick");
+    public static final CTSpriteShiftEntry STRIP_OVERLY_CT = cross("strip_rune");
     private static CTSpriteShiftEntry omni(String name) {
         return getCT(AllCTTypes.OMNIDIRECTIONAL, name);
     }

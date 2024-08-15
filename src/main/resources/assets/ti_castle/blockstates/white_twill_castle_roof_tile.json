@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "ti_castle:block/white_twill_castle_roof_tile"
+      }
+    ]
+  }
+}

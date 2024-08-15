@@ -67,12 +67,14 @@
     "twilightforest:cicada_jar",
     "twilightforest:firefly_particle_spawner",
     "#twilightforest:mazebreaker_accelerated_mining",
-    "#twilightforest:annihilation_inclusions",
     "twilightforest:hedge",
     "twilightforest:burnt_thorns",
     "twilightforest:thorn_rose",
     "twilightforest:iron_ladder",
     "twilightforest:uncrafting_table",
+
+    "twilightforest:brown_thorns",
+    "twilightforest:green_thorns",
 
     "#ti_castle:skulls",
     "#ti_castle:aurora",

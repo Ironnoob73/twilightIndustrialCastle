@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": [
+      {
+        "item": "twilightforest:castle_roof_tile"
+      }
+    ],
+    "M": [
+      {
+        "tags": "forge:gems/quartz"
+      }
+    ]
+  },
+  "pattern": [
+    "###",
+    "#M#",
+    "###"
+  ],
+  "result": {
+    "count": 8,
+    "item": "ti_castle:white_strip_castle_roof_tile"
+  }
+}

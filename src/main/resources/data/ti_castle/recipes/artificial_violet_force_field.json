@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": [
+      {
+        "item": "ti_castle:castle_white_brick"
+      }
+    ],
+    "O": [
+      {
+        "tag": "forge:glass_panes"
+      }
+    ],
+    "M": [
+      {
+        "item": "create:powdered_obsidian"
+      }
+    ]
+  },
+  "pattern": [
+    "#O#",
+    "OMO",
+    "#O#"
+  ],
+  "result": {
+    "count": 8,
+    "item": "twilightforest:artificial_violet_force_field"
+  }
+}
