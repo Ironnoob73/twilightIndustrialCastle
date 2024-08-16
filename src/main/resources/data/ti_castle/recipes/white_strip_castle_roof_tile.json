@@ -8,7 +8,7 @@
     ],
     "M": [
       {
-        "tags": "forge:gems/quartz"
+        "tag": "forge:gems/quartz"
       }
     ]
   },

@@ -13,7 +13,7 @@
     ],
     "M": [
       {
-        "tag": "forge:gems/prismarine"
+        "tag": "forge:dusts/prismarine"
       }
     ]
   },
@@ -24,6 +24,6 @@
   ],
   "result": {
     "count": 8,
-    "item": "twilightforest:artificial_cyan_force_field"
+    "item": "ti_castle:artificial_cyan_force_field"
   }
 }
